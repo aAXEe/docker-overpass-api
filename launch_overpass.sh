@@ -10,13 +10,13 @@ echo "Raw installation, will init DB from .osm planet"
 echo "Will run dispatcher"
 
 #run the dispatcher
-$BINDIR/dispatcher --osm-base --meta --db-dir=$DBDIR &
+$BINDIR/dispatcher --osm-base --db-dir=$DBDIR &
 sleep 5 #In case
 
 echo "Will run diff fetcher"
 
 #run the diff fetcher
-$BINDIR/fetch_osc_and_apply.sh $REPLICATE_SERVER --meta=yes &
+$BINDIR/fetch_osc_and_apply.sh $REPLICATE_SERVER --meta=no &
 
 
 #AREAS
