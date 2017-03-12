@@ -29,14 +29,14 @@ REPLICATE_SERVER=http://ftp.gwdg.de/pub/misc/openstreetmap/planet.openstreetmap.
 #Where to fetch the planet file from ?
 #ftp.gwdg.de is fast in europe. If you are network-far away, you can change this
 #url. Keep in mind that the file is ~50GB
-#PLANET_FILE="http://ftp.gwdg.de/pub/misc/openstreetmap/planet.openstreetmap.org/planet/planet-latest.osm.bz2"
+PLANET_FILE="http://ftp.gwdg.de/pub/misc/openstreetmap/planet.openstreetmap.org/planet/planet-latest.osm.bz2"
 
 #Planet file for zurich, switzerland, in case you want to have a small before before exporting the whole Earth.
 #PLANET_FILE="https://s3.amazonaws.com/metro-extracts.mapzen.com/zurich_switzerland.osm.bz2"
 
-PLANET_FILE="https://ftp.gwdg.de/pub/misc/openstreetmap/download.geofabrik.de/germany-latest.osm.bz2"
+#PLANET_FILE="https://ftp.gwdg.de/pub/misc/openstreetmap/download.geofabrik.de/germany-latest.osm.bz2"
 
-
+#PLANET_FILE="https://s3.amazonaws.com/metro-extracts.mapzen.com/hamburg_germany.osm.bz2"
 
 #=====================================
 #Don't change anything below this line
